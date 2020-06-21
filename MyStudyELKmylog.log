@@ -1,0 +1,17 @@
+2020-06-20 13:36:04.496  INFO 94140 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2020-06-20 13:36:08.180  INFO 94140 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=application, profiles=[default], label=null, version=da82107ccef4ff8840cddc568795984f3bed6310, state=null
+2020-06-20 13:36:08.182  INFO 94140 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/kuldeepsarnaik/Maven_test.git/application.properties'}]
+2020-06-20 13:36:08.224  INFO 94140 --- [main] c.example.demo.ConfigclientApplication   : No active profile set, falling back to default profiles: default
+2020-06-20 13:36:08.744  INFO 94140 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e9d17283-408e-347e-8513-bb17591dffcc
+2020-06-20 13:36:09.285  INFO 94140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8018 (http)
+2020-06-20 13:36:09.297  INFO 94140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-20 13:36:09.298  INFO 94140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-20 13:36:09.451  INFO 94140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-20 13:36:09.451  INFO 94140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2020-06-20 13:36:09.670  INFO 94140 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-20 13:36:10.191  INFO 94140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8018 (http) with context path ''
+2020-06-20 13:36:10.446  INFO 94140 --- [main] c.example.demo.ConfigclientApplication   : Started ConfigclientApplication in 7.71 seconds (JVM running for 8.612)
+2020-06-20 13:37:03.238  INFO 94140 --- [http-nio-8018-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-20 13:37:03.240  INFO 94140 --- [http-nio-8018-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-20 13:37:03.249  INFO 94140 --- [http-nio-8018-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-06-20 13:37:03.281  INFO 94140 --- [http-nio-8018-exec-1] c.example.demo.ConfigclientApplication   : nice
